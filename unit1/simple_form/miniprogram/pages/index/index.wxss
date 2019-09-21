@@ -1,0 +1,29 @@
+/**index.wxss**/
+page{
+  background-color: rgba(97, 97, 97, 0.2);
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    color: #eee;
+    background-color: #333;
+}
+.holder{
+  font-size: 22px;
+  background-color: #eee;
+  max-width: 60px;
+  height: 30px;
+  display: inline-block;
+  margin: 0px 40px;
+  margin-top: 15px;
+}
+.answer{
+  font-size: 40px;
+  text-align: center;
+  color: #555;
+}
+.btn{
+  max-width: 200px;
+  border: 3px solid rgb(85, 85, 85);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<form bindsubmit="formSubmit">
+  <view class="title">简易字符长度计算器</view>
+  <input class="holder" value="" placeholder="" name="str1"></input>+
+  <input class="holder" value="" placeholder="" name="str2"></input>=
+  <view class="answer">{{answer}}</view>
+  <button formType="submit" class='btn'>计算答案</button>
+  <button bindtap="upload" class='btn'>上传到数据库</button>
+  <view class="answer">{{record}}</view>
+  <button class='btn' bindtap='read'>读取数据库值</button>
+</form>
